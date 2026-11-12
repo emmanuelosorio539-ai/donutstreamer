@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "donutstreamer",
+  "version": "${version}",
+  "name": "Donut Streamer",
+  "description": "Panel para streamers y herramientas de subastas (calculadora, registro de ganancias, modo stream) con una interfaz moderna. Solo cliente.",
+  "authors": ["Tú"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.donutstreamer.DonutStreamerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
